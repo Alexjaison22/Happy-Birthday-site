@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background: linear-gradient(skyblue, pink);
+  color: white;
+  text-shadow: 0px 0px 1px black;
+}
+#circle {
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid pink;
+}
+
+#age {
+  background: pink;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+#date {
+  margin: 0;
+  background: pink;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift {
+  margin-top: 50px;
+}
+
+.ghint {
+  margin-top: 0;
+}
+
+#footer{
+    font-style: italic;
+}
+
+#gimage1 {
+  width: 400px;
+  height: 400px;
+  background-image: url(" https://cdn.vectorstock.com/i/1000v/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+#gimage2 {
+  width: 400px;
+  height: 400px;
+  background-image: url(" https://cdn.vectorstock.com/i/1000v/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#gimage1:hover {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTJvYnZxNDA4YXprZGx0YW8xcXk3N3FlOG1haWZzNHRrMWg0amZtbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g5R9dok94mrIvplmZd/giphy.webp");
+  background-size: 100% 100%;
+  background-position: center;
+}
+#gimage2:hover {
+  background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmV0d3ZhMm1rYWhpOGg3MmRhdjM2ajN2amhpandyeTRnanE5aHduYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0EoBCmxtSZhJQvxS/giphy.webp");
+  background: size 100% 100%;
+  background-position: center;
+}
+
+#gimage3 {
+  width: 400px;
+  height: 300px;
+  background-image: url(" https://cdn.vectorstock.com/i/1000v/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#gimage3:hover {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzNqZW5pcGJ3ZHUweGZmYjh3a3V2emdkMWp6M2RqaW9yNzZzcGE4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/squFZjENy2XzG/200.webp");
+  background: size 100% 100%;
+  background-position: center;
+}
